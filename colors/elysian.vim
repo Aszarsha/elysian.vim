@@ -34,9 +34,9 @@ hi Pmenu             ctermbg=238  ctermfg=250   cterm=NONE
 hi PmenuSbar         ctermbg=240  ctermfg=NONE  cterm=NONE
 hi PmenuSel          ctermbg=66   ctermfg=235   cterm=NONE
 hi PmenuThumb        ctermbg=66   ctermfg=66    cterm=NONE
-hi ErrorMsg          ctermbg=NONE ctermfg=73    cterm=NONE
-hi ModeMsg           ctermbg=NONE ctermfg=73    cterm=NONE
-hi MoreMsg           ctermbg=NONE ctermfg=66    cterm=NONE
+hi ErrorMsg          ctermbg=NONE ctermfg=2    cterm=NONE
+hi ModeMsg           ctermbg=NONE ctermfg=fg    cterm=NONE
+hi MoreMsg           ctermbg=NONE ctermfg=2    cterm=NONE
 hi Question          ctermbg=NONE ctermfg=108   cterm=NONE
 hi WarningMsg        ctermbg=NONE ctermfg=131   cterm=NONE
 hi TabLine           ctermbg=238  ctermfg=101   cterm=NONE
@@ -80,8 +80,6 @@ hi cssClassNameDot   ctermbg=NONE ctermfg=6     cterm=NONE
 hi cssBraces         ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi htmlLink          ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi htmlH1            ctermbg=NONE ctermfg=fg    cterm=NONE
-hi StartifyHeader    ctermbg=NONE ctermfg=231   cterm=NONE
-hi StartifyPath      ctermbg=NONE ctermfg=7     cterm=NONE
 hi TODO              ctermbg=0    ctermfg=6     cterm=bold
 hi SpellBad          ctermbg=NONE ctermfg=131   cterm=NONE
 hi SpellCap          ctermbg=NONE ctermfg=73    cterm=NONE
@@ -141,3 +139,5 @@ hi link StartifyBracket          Comment
 hi link SneakPluginScope         Comment
 hi link zshKSHFunction           Function
 hi link vimFunction              Function
+hi link StartifyHeader           Normal
+hi link StartifyPath             Normal
