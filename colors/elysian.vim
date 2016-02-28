@@ -19,16 +19,16 @@ hi SignColumn        ctermbg=234  ctermfg=242   cterm=NONE
 hi Comment           ctermbg=NONE ctermfg=240   cterm=NONE
 hi Conceal           ctermbg=NONE ctermfg=250   cterm=NONE
 hi Constant          ctermbg=NONE ctermfg=210   cterm=NONE
-hi Error             ctermbg=NONE ctermfg=131   cterm=REVERSE
+hi Error             ctermbg=NONE ctermfg=131   cterm=reverse
 hi Identifier        ctermbg=NONE ctermfg=67    cterm=NONE
 hi Ignore            ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi PreProc           ctermbg=NONE ctermfg=66    cterm=NONE
 hi Special           ctermbg=NONE ctermfg=65    cterm=NONE
 hi Statement         ctermbg=NONE ctermfg=110   cterm=NONE
 hi String            ctermbg=NONE ctermfg=108   cterm=NONE
-hi Todo              ctermbg=NONE ctermfg=NONE  cterm=REVERSE
+hi Todo              ctermbg=NONE ctermfg=NONE  cterm=reverse
 hi Type              ctermbg=NONE ctermfg=103   cterm=NONE
-hi Underlined        ctermbg=NONE ctermfg=66    cterm=UNDERLINE
+hi Underlined        ctermbg=NONE ctermfg=66    cterm=underline
 hi NonText           ctermbg=NONE ctermfg=240   cterm=NONE
 hi Pmenu             ctermbg=238  ctermfg=250   cterm=NONE
 hi PmenuSbar         ctermbg=240  ctermfg=NONE  cterm=NONE
@@ -53,8 +53,8 @@ hi helpNormal        ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi StatusLine        ctermbg=bg   ctermfg=fg    cterm=NONE
 hi StatusLineNC      ctermbg=bg   ctermfg=fg    cterm=NONE
 
-hi Visual            ctermbg=235  ctermfg=110   cterm=REVERSE
-hi VisualNOS         ctermbg=NONE ctermfg=NONE  cterm=UNDERLINE
+hi Visual            ctermbg=235  ctermfg=110   cterm=reverse
+hi VisualNOS         ctermbg=NONE ctermfg=NONE  cterm=underline
 hi VertSplit         ctermbg=0    ctermfg=238   cterm=NONE
 hi WildMenu          ctermbg=253  ctermfg=0     cterm=NONE
 hi Function          ctermbg=NONE ctermfg=182   cterm=NONE
@@ -66,22 +66,22 @@ hi DiffAdd           ctermbg=10   ctermfg=0     cterm=NONE
 hi DiffChange        ctermbg=10   ctermfg=0     cterm=NONE
 hi DiffDelete        ctermbg=5    ctermfg=0     cterm=NONE
 hi DiffText          ctermbg=2    ctermfg=0     cterm=NONE
-hi Search            ctermbg=4    ctermfg=0     cterm=NONE
+hi Search            ctermbg=110  ctermfg=0     cterm=NONE
 hi IncSearch         ctermbg=1    ctermfg=0     cterm=NONE
 
 hi Directory         ctermbg=NONE ctermfg=12    cterm=NONE
 hi ColorColumn       ctermbg=235  ctermfg=NONE  cterm=NONE
 hi SneakPluginTarget ctermbg=6    ctermfg=0     cterm=NONE
 hi SneakStreakTarget ctermbg=6    ctermfg=0     cterm=NONE
-hi SneakStreakMask   ctermbg=6    ctermfg=6     cterm=none
-hi GitGutterChange   ctermbg=234  ctermfg=13    cterm=none
+hi SneakStreakMask   ctermbg=6    ctermfg=6     cterm=NONE
+hi GitGutterChange   ctermbg=234  ctermfg=13    cterm=NONE
 hi cssClassName      ctermbg=NONE ctermfg=6     cterm=NONE
 hi cssClassNameDot   ctermbg=NONE ctermfg=6     cterm=NONE
 hi cssBraces         ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi htmlLink          ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi htmlH1            ctermbg=NONE ctermfg=fg    cterm=NONE
 hi StartifyHeader    ctermbg=NONE ctermfg=231   cterm=NONE
-hi TODO              ctermbg=0    ctermfg=6     cterm=BOLD
+hi TODO              ctermbg=0    ctermfg=6     cterm=bold
 hi StartifyPath      ctermbg=NONE ctermfg=7     cterm=NONE
 hi SpellBad          ctermbg=NONE ctermfg=131   cterm=NONE
 hi SpellCap          ctermbg=NONE ctermfg=73    cterm=NONE
