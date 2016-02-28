@@ -12,7 +12,7 @@ hi Normal            ctermbg=0    ctermfg=250   cterm=NONE
 hi LineNr            ctermbg=234  ctermfg=242   cterm=NONE
 hi FoldColumn        ctermbg=234  ctermfg=242   cterm=NONE
 hi Folded            ctermbg=233  ctermfg=242   cterm=NONE
-hi MatchParen        ctermbg=232  ctermfg=151   cterm=NONE
+hi MatchParen        ctermbg=232  ctermfg=6     cterm=NONE
 hi SignColumn        ctermbg=234  ctermfg=242   cterm=NONE
 hi Comment           ctermbg=NONE ctermfg=240   cterm=NONE
 hi Conceal           ctermbg=NONE ctermfg=250   cterm=NONE
@@ -68,17 +68,17 @@ hi IncSearch         ctermbg=1    ctermfg=0     cterm=NONE
 
 hi Directory         ctermbg=NONE ctermfg=12    cterm=NONE
 hi ColorColumn       ctermbg=235  ctermfg=NONE  cterm=NONE
-hi SneakPluginTarget ctermbg=151    ctermfg=0   cterm=NONE
-hi SneakStreakTarget ctermbg=151    ctermfg=0   cterm=NONE
-hi SneakStreakMask   ctermbg=151    ctermfg=151 cterm=none
+hi SneakPluginTarget ctermbg=6    ctermfg=0     cterm=NONE
+hi SneakStreakTarget ctermbg=6    ctermfg=0     cterm=NONE
+hi SneakStreakMask   ctermbg=6    ctermfg=6     cterm=none
 hi GitGutterChange   ctermbg=234  ctermfg=13    cterm=none
-hi cssClassName      ctermbg=NONE ctermfg=151   cterm=NONE
-hi cssClassNameDot   ctermbg=NONE ctermfg=151     cterm=NONE
+hi cssClassName      ctermbg=NONE ctermfg=6     cterm=NONE
+hi cssClassNameDot   ctermbg=NONE ctermfg=6     cterm=NONE
 hi cssBraces         ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi htmlLink          ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi htmlH1            ctermbg=NONE ctermfg=fg    cterm=NONE
 hi StartifyHeader    ctermbg=NONE ctermfg=231   cterm=NONE
-hi TODO              ctermbg=0    ctermfg=151   cterm=BOLD
+hi TODO              ctermbg=0    ctermfg=6     cterm=BOLD
 
 "TODO needs work
 hi StartifyPath      ctermbg=NONE ctermfg=7     cterm=NONE
