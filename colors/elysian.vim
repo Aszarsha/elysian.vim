@@ -8,6 +8,8 @@ let colors_name = "elysian"
 
 set background=dark
 
+"TODO replace white with a 256 color maybe
+
 hi Normal            ctermbg=0    ctermfg=250   cterm=NONE
 hi LineNr            ctermbg=234  ctermfg=242   cterm=NONE
 hi FoldColumn        ctermbg=234  ctermfg=242   cterm=NONE
@@ -79,8 +81,6 @@ hi htmlLink          ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi htmlH1            ctermbg=NONE ctermfg=fg    cterm=NONE
 hi StartifyHeader    ctermbg=NONE ctermfg=231   cterm=NONE
 hi TODO              ctermbg=0    ctermfg=6     cterm=BOLD
-
-"TODO needs work
 hi StartifyPath      ctermbg=NONE ctermfg=7     cterm=NONE
 hi SpellBad          ctermbg=NONE ctermfg=131   cterm=NONE
 hi SpellCap          ctermbg=NONE ctermfg=73    cterm=NONE
