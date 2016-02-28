@@ -8,7 +8,7 @@ let colors_name = "elysian"
 
 set background=dark
 
-"TODO replace white with a 256 color maybe
+"TODO replace white 7 with a 256 color maybe
 
 hi Normal            ctermbg=0    ctermfg=250   cterm=NONE
 hi LineNr            ctermbg=234  ctermfg=242   cterm=NONE
@@ -48,6 +48,7 @@ hi CursorLine        ctermbg=234  ctermfg=NONE  cterm=NONE
 hi CursorLineNr      ctermbg=234  ctermfg=73    cterm=NONE
 hi helpLeadBlank     ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi helpNormal        ctermbg=NONE ctermfg=NONE  cterm=NONE
+
 "TODO needs work
 hi StatusLine        ctermbg=bg   ctermfg=fg    cterm=NONE
 hi StatusLineNC      ctermbg=bg   ctermfg=fg    cterm=NONE
