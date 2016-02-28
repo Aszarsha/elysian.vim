@@ -66,7 +66,7 @@ hi DiffAdd           ctermbg=10   ctermfg=0     cterm=NONE
 hi DiffChange        ctermbg=10   ctermfg=0     cterm=NONE
 hi DiffDelete        ctermbg=5    ctermfg=0     cterm=NONE
 hi DiffText          ctermbg=2    ctermfg=0     cterm=NONE
-hi Search            ctermbg=110  ctermfg=0     cterm=NONE
+hi Search            ctermbg=4    ctermfg=0     cterm=NONE
 hi IncSearch         ctermbg=1    ctermfg=0     cterm=NONE
 
 hi Directory         ctermbg=NONE ctermfg=12    cterm=NONE
