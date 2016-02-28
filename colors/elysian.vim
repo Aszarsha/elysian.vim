@@ -63,10 +63,10 @@ hi Search            ctermbg=4    ctermfg=0    cterm=NONE
 hi IncSearch         ctermbg=1    ctermfg=0    cterm=NONE
 hi Directory         ctermbg=NONE ctermfg=12   cterm=NONE
 hi ColorColumn       ctermbg=235  ctermfg=NONE cterm=NONE
-hi SneakPluginTarget ctermbg=9    ctermfg=0    cterm=NONE
-hi SneakStreakTarget ctermbg=9    ctermfg=0    cterm=NONE
-hi sneakstreakmask   ctermbg=9    ctermfg=9    cterm=none
-hi gitgutterchange   ctermbg=234  ctermfg=13   cterm=none
+hi SneakPluginTarget ctermbg=6    ctermfg=0    cterm=NONE
+hi SneakStreakTarget ctermbg=6    ctermfg=0    cterm=NONE
+hi SneakStreakMask   ctermbg=6    ctermfg=6    cterm=none
+hi GitGutterChange   ctermbg=234  ctermfg=13   cterm=none
 hi cssClassName      ctermbg=NONE ctermfg=6    cterm=NONE
 hi cssClassNameDot   ctermbg=NONE ctermfg=6    cterm=NONE
 hi cssBraces         ctermbg=NONE ctermfg=NONE cterm=NONE

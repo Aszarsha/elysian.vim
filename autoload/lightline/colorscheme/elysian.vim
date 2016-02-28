@@ -25,4 +25,4 @@ let s:p.inactive.left = [ [ '', '', 249, 8 ], [ '', '', 249, 8 ], [ '', '', 249,
 let s:p.inactive.middle = [ [ '', '', 7, 235 ] ]
 let s:p.inactive.right = [ [ '', '', 249, 8 ], [ '', '', 249, 8 ], [ '', '', 249, 8 ] ]
 
-let g:lightline#colorscheme#nhooyr#palette = s:p
+let g:lightline#colorscheme#elysian#palette = s:p
