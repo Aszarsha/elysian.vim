@@ -81,8 +81,8 @@ hi cssBraces         ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi htmlLink          ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi htmlH1            ctermbg=NONE ctermfg=fg    cterm=NONE
 hi StartifyHeader    ctermbg=NONE ctermfg=231   cterm=NONE
-hi TODO              ctermbg=0    ctermfg=6     cterm=bold
 hi StartifyPath      ctermbg=NONE ctermfg=7     cterm=NONE
+hi TODO              ctermbg=0    ctermfg=6     cterm=bold
 hi SpellBad          ctermbg=NONE ctermfg=131   cterm=NONE
 hi SpellCap          ctermbg=NONE ctermfg=73    cterm=NONE
 hi SpellRare         ctermbg=NONE ctermfg=208   cterm=NONE
@@ -137,6 +137,7 @@ hi link diffAdded                String
 hi link GitGutterChangeDelete    GitGutterChange
 hi link StartifyVar              StartifyFile
 hi link StartifySlash            StartifyPath
+hi link StartifyBracket          Comment
 hi link SneakPluginScope         Comment
 hi link zshKSHFunction           Function
 hi link vimFunction              Function
