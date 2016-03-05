@@ -50,8 +50,8 @@ hi helpLeadBlank     ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi helpNormal        ctermbg=NONE ctermfg=NONE  cterm=NONE
 
 "TODO needs work
-hi StatusLine        ctermbg=bg   ctermfg=fg    cterm=NONE
-hi StatusLineNC      ctermbg=bg   ctermfg=fg    cterm=NONE
+hi StatusLine        ctermbg=235  ctermfg=fg    cterm=NONE
+hi StatusLineNC      ctermbg=235  ctermfg=fg    cterm=NONE
 
 hi Visual            ctermbg=235  ctermfg=110   cterm=reverse
 hi VisualNOS         ctermbg=NONE ctermfg=NONE  cterm=underline
