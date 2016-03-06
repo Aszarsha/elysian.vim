@@ -49,7 +49,7 @@ hi CursorLineNr      ctermbg=234  ctermfg=73    cterm=NONE
 hi helpLeadBlank     ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi helpNormal        ctermbg=NONE ctermfg=NONE  cterm=NONE
 
-"TODO needs work
+"TODO needs work, possible bug with vim
 hi StatusLine        ctermbg=bg   ctermfg=fg    cterm=NONE
 hi StatusLineNC      ctermbg=bg   ctermfg=fg    cterm=NONE
 
