@@ -9,7 +9,6 @@ let colors_name = "elysian"
 set background=dark
 
 "TODO replace white 7 with a 256 color maybe
-
 hi Normal            ctermbg=0    ctermfg=250   cterm=NONE
 hi LineNr            ctermbg=234  ctermfg=242   cterm=NONE
 hi FoldColumn        ctermbg=234  ctermfg=242   cterm=NONE
@@ -42,14 +41,15 @@ hi WarningMsg        ctermbg=NONE ctermfg=131   cterm=NONE
 hi TabLine           ctermbg=238  ctermfg=101   cterm=NONE
 hi TabLineFill       ctermbg=238  ctermfg=238   cterm=NONE
 hi TabLineSel        ctermbg=101  ctermfg=235   cterm=NONE
-hi Cursor            ctermbg=0    ctermfg=NONE  cterm=NONE
+hi Cursor            ctermbg=1    ctermfg=bg    cterm=NONE
 hi CursorColumn      ctermbg=236  ctermfg=NONE  cterm=NONE
 hi CursorLine        ctermbg=234  ctermfg=NONE  cterm=NONE
 hi CursorLineNr      ctermbg=234  ctermfg=73    cterm=NONE
 hi helpLeadBlank     ctermbg=NONE ctermfg=NONE  cterm=NONE
 hi helpNormal        ctermbg=NONE ctermfg=NONE  cterm=NONE
 
-"TODO needs work, possible bug with vim
+"TODO needs work, possible bug with vim, the whole dots thing..? start vim and
+"see
 hi StatusLine        ctermbg=bg   ctermfg=fg    cterm=NONE
 hi StatusLineNC      ctermbg=bg   ctermfg=fg    cterm=NONE
 
@@ -85,8 +85,28 @@ hi SpellBad          ctermbg=NONE ctermfg=131   cterm=NONE
 hi SpellCap          ctermbg=NONE ctermfg=73    cterm=NONE
 hi SpellRare         ctermbg=NONE ctermfg=208   cterm=NONE
 hi SpellLocal        ctermbg=NONE ctermfg=65    cterm=NONE
-hi TermCursor        ctermbg=bg   ctermfg=fg
-hi TermCursorNC      ctermbg=bg   ctermfg=fg
+hi TermCursor        ctermbg=bg   ctermfg=fg    cterm=reverse
+hi TermCursorNC      ctermbg=NONE ctermfg=NONE  cterm=reverse
+
+hi TabLabel          ctermbg=7    ctermfg=8     cterm=bold
+hi TabLabelNum       ctermbg=235  ctermfg=7
+
+hi TabClose          ctermbg=12   ctermfg=8     cterm=NONE
+hi TabBGClose        ctermbg=235  ctermfg=12    cterm=NONE
+hi TabBGNum          ctermbg=8    ctermfg=235   cterm=NONE
+
+hi TabNameSel        ctermbg=12   ctermfg=235   cterm=NONE
+hi TabNumSel         ctermbg=8    ctermfg=7     cterm=NONE
+hi TabNumSelName     ctermbg=12   ctermfg=8     cterm=NONE
+hi TabNameSelBG      ctermbg=235  ctermfg=12    cterm=NONE
+
+hi TabName           ctermbg=11   ctermfg=249   cterm=NONE
+hi TabNum            ctermbg=8    ctermfg=249   cterm=NONE
+hi TabNameBG         ctermbg=235  ctermfg=11    cterm=NONE
+hi TabNumName        ctermbg=11   ctermfg=8     cterm=NONE
+
+hi TabLineFill       ctermbg=235  ctermfg=7     cterm=NONE
+hi Close             ctermbg=10   ctermfg=8     cterm=NONE
 
 hi link Boolean                  Constant
 hi link Character                Constant
@@ -137,6 +157,7 @@ hi link StartifyVar              StartifyFile
 hi link StartifySlash            StartifyPath
 hi link StartifyBracket          Comment
 hi link SneakPluginScope         Comment
+hi link SneakStreakCursor        TermCursor
 hi link zshKSHFunction           Function
 hi link vimFunction              Function
 hi link StartifyHeader           Normal
