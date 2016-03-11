@@ -1,11 +1,12 @@
-if exists('g:loaded_elysian_lightline')
+if exists('g:loaded_elysian_lightline') || !empty($PUSSY)
   finish
 endif
 let g:loaded_elysian_lightline = 1
 let g:lightline = {
       \ 'colorscheme': 'elysian',
       \ 'enable': {
-      \ 'tabline': 0,
+      \   'statusline': 0,
+      \   'tabline': 0,
       \ },
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
@@ -38,14 +39,9 @@ let g:lightline = {
       \ 'separator': { 'left': '', 'right': '' },
       \ 'subseparator': { 'left': '', 'right': '' },
       \ }
-if empty($PUSSY)
-  let g:lightline['enable']['statusline'] =  1
-else
-  let g:lightline['enable']['statusline'] =  0
-endif
 
 function! LightLineMake()
-  let tags = empty($PUSSY) ? gutentags#statusline('tags...') : ""
+  let tags = gutentags#statusline('tags...')
   if !empty(tags)
     return tags
   elseif &filetype ==# "go"
