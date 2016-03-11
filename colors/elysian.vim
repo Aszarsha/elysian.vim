@@ -86,7 +86,7 @@ hi SpellCap          ctermbg=NONE ctermfg=73    cterm=NONE
 hi SpellRare         ctermbg=NONE ctermfg=208   cterm=NONE
 hi SpellLocal        ctermbg=NONE ctermfg=65    cterm=NONE
 hi TermCursor        ctermbg=bg   ctermfg=fg    cterm=reverse
-hi TermCursorNC      ctermbg=NONE ctermfg=NONE  cterm=reverse
+hi TermCursorNC      ctermbg=NONE ctermfg=NONE  cterm=NONE
 
 hi TabLabel          ctermbg=7    ctermfg=8     cterm=bold
 hi TabLabelNum       ctermbg=235  ctermfg=7
