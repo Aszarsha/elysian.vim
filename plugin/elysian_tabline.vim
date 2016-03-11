@@ -1,4 +1,4 @@
-if exists('g:loaded_elysian_tabline')
+if exists('g:loaded_elysian_tabline') || !empty($PUSSY)
   finish
 endif
 let g:loaded_elysian_tabline = 1
