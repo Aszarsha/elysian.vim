@@ -41,8 +41,8 @@ let g:lightline = {
       \ }
 
 function! LightLineMake()
-  let tags = gutentags#statusline('tags...')
-  if !empty(tags) && empty($PUSSY)
+  let tags = empty($PUSSY) ? gutentags#statusline('tags...') : ""
+  if !empty(tags)
     return tags
   elseif &filetype ==# "go"
     return go#jobcontrol#Statusline()
