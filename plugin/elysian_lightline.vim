@@ -5,7 +5,6 @@ let g:loaded_elysian_lightline = 1
 let g:lightline = {
       \ 'colorscheme': 'elysian',
       \ 'enable': {
-      \ 'statusline': 1,
       \ 'tabline': 0,
       \ },
       \ 'active': {
@@ -39,6 +38,11 @@ let g:lightline = {
       \ 'separator': { 'left': '', 'right': '' },
       \ 'subseparator': { 'left': '', 'right': '' },
       \ }
+if empty($PUSSY)
+  let g:lightline['statusline'] =  1
+else
+  let g:lightline['statusline'] =  0
+endif
 
 function! LightLineMake()
   let tags = empty($PUSSY) ? gutentags#statusline('tags...') : ""
