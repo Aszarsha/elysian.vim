@@ -5,7 +5,7 @@ let g:loaded_elysian_lightline = 1
 let g:lightline = {
       \ 'colorscheme': 'elysian',
       \ 'enable': {
-      \   'statusline': 0,
+      \   'statusline': 1,
       \   'tabline': 0,
       \ },
       \ 'active': {
