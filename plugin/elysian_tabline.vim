@@ -31,7 +31,7 @@ function! elysian_tabline#Update()
       let file = 'go-run'
     elseif file ==# "__Tagbar__"
       let file = 'tagbar'
-    else
+    elseif exists('*env#Path')
       let file = fnamemodify(substitute(env#Path(file, 1), "/$", '', ''), ':t')
     endif
     let s .= ' '

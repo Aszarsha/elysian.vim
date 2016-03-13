@@ -55,8 +55,12 @@ function! s:oneLetterPath(path)
   return fnamemodify(substitute(a:path, '\/\(.\)[^\/]*', '\/\1', 'g'), ':h') . '/' . fnamemodify(a:path, ':t')
 endfunction
 
+function! s:env_path(path, full)
+  return exists('*env#Path') ? env#Path(a:path, a:full) : a:path
+endfunction
+
 function! LightLineCWD()
-  let cwd = env#Path(getcwd(), 1)
+  let cwd = s:env_path(getcwd(), 1)
   if len(cwd) > 35
     let cwd = s:oneLetterPath(cwd)
   endif
@@ -95,11 +99,11 @@ function! LightLineFilename()
   elseif &buftype ==# "nofile" && &filetype !=# "dirvish" && &filetype !=# "neoman"
     let file = 'scratch'
   elseif expand('%') =~# "fugitive:"
-    let file = 'fugitive://' . env#Path(substitute(expand('%'), 'fugitive:\/\/\(\f\+\)\.git\/\/\d\/\(\f\+\)', '\1\2', ''), 0)
+    let file = 'fugitive://' . s:env_path(substitute(expand('%'), 'fugitive:\/\/\(\f\+\)\.git\/\/\d\/\(\f\+\)', '\1\2', ''), 0)
   elseif expand('%') =~# "go run"
-    return 'gorun://' . env#Path(substitute(expand('%'), ".*go run '\\\(.*\\\)'", '\1', ''), 0)
+    return 'gorun://' . s:env_path(substitute(expand('%'), ".*go run '\\\(.*\\\)'", '\1', ''), 0)
   else
-    let file = env#Path(expand('%:p'), 0)
+    let file = s:env_path(expand('%:p'), 0)
     if len(file) > 35
       let file = s:oneLetterPath(file)
     endif
