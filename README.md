@@ -3,7 +3,7 @@ elysian is a 256 terminal only colorscheme inspired by [apprentice](https://gith
 
 #![code](http://i.imgur.com/pRHWajJ.png)
 
-##env (included)
+##env (included, makes pathes much shorter)
 Env is a vim plugin that provides the function `env#Path(path, full)` that returns the path with environment variables replaced with their names. It takes a full path always!
 
 It will always use the variable that produces the smallest path, or just return path if it cannot be shortened (if replacing environment variables causes the path to become larger or there are no matches). If full is false, it also takes into account the relative path.
