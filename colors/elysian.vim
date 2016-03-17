@@ -31,8 +31,8 @@ hi Underlined        ctermbg=NONE ctermfg=66    cterm=underline
 hi NonText           ctermbg=NONE ctermfg=240   cterm=NONE
 hi Pmenu             ctermbg=11   ctermfg=250   cterm=NONE
 hi PmenuSbar         ctermbg=11   ctermfg=NONE  cterm=NONE
-hi PmenuSel          ctermbg=4    ctermfg=0     cterm=NONE
-hi PmenuThumb        ctermbg=4    ctermfg=4     cterm=NONE
+hi PmenuSel          ctermbg=5    ctermfg=0     cterm=NONE
+hi PmenuThumb        ctermbg=5    ctermfg=5     cterm=NONE
 hi ErrorMsg          ctermbg=NONE ctermfg=73    cterm=NONE
 hi ModeMsg           ctermbg=NONE ctermfg=73    cterm=NONE
 hi MoreMsg           ctermbg=NONE ctermfg=2     cterm=NONE
