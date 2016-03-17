@@ -95,7 +95,7 @@ function! LightLineFilename()
   elseif &buftype ==# "nofile" && &filetype !=# "dirvish" && &filetype !=# "neoman"
     let file = 'scratch'
   elseif expand('%') =~# "fugitive:"
-    let file = 'fugitive://' . env#Path(substitute(expand('%'), 'fugitive:\/\/\(\f\+\)\.git\/\/\d\/\(\f\+\)', '\1\2', ''), 0)
+    let file = env#Path(substitute(expand('%'), 'fugitive:\/\/\zs\(\f\+\)\.git\/\/\w\+\/\(\f\+\)', '\1\2', ''), 0)
   elseif expand('%') =~# "go run"
     return 'gorun://' . env#Path(substitute(expand('%'), ".*go run '\\\(.*\\\)'", '\1', ''), 0)
   else
