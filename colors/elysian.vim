@@ -50,13 +50,8 @@ hi helpNormal        ctermbg=NONE ctermfg=NONE  cterm=NONE
 
 "TODO needs work, possible bug with vim, the whole dots thing..? start vim and
 "see
-if empty($PUSSY)
-  hi StatusLine        ctermbg=bg   ctermfg=fg    cterm=NONE
-  hi StatusLineNC      ctermbg=bg   ctermfg=fg    cterm=NONE
-else
-  hi StatusLine        ctermbg=235  ctermfg=15    cterm=NONE
-  hi StatusLineNC      ctermbg=235  ctermfg=249   cterm=NONE
-endif
+hi StatusLine        ctermbg=bg   ctermfg=fg    cterm=NONE
+hi StatusLineNC      ctermbg=bg   ctermfg=fg    cterm=NONE
 
 
 hi Visual            ctermbg=235  ctermfg=110   cterm=reverse

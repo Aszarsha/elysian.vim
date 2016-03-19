@@ -1,4 +1,4 @@
-if exists('g:loaded_elysian_lightline') || !empty($PUSSY)
+if exists('g:loaded_elysian_lightline')
   finish
 endif
 let g:loaded_elysian_lightline = 1

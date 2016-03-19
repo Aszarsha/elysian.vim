@@ -1,4 +1,4 @@
-if exists('g:loaded_elysian_tabline') || !empty($PUSSY)
+if exists('g:loaded_elysian_tabline')
   finish
 endif
 let g:loaded_elysian_tabline = 1
@@ -40,7 +40,6 @@ function! elysian_tabline#Update()
     let s .= ( i == t ? '%#TabNameSelBG#' : '%#TabNameBG#')
     let s .= ''
   endfor
-  let s .= '%T%#TabLineFill#%= %#TabBGClose#%#TabClose# X '
-  return s
+  return s.'%T%#TabLineFill#%= %#TabBGClose#%#TabClose# X '
 endfunction
 set tabline=%!elysian_tabline#Update()
