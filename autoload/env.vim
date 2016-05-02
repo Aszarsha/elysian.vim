@@ -10,7 +10,6 @@ function! s:init() abort
   redir => rawenv
   silent! execute "normal!:ec$\<c-a>'\<c-b>\<right>\<right>\<del>'\<cr>"
   redir END
-  redraw
   let &tabline = ptabline
   let l = split(rawenv)
   let s:env = {}
